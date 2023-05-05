@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  padding: 85px 0 78px 0;
+}
+.head-text {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.17px;
+  width: 20ch;
+  color: #4d4f62;
+  text-align: center;
+}
+.span-text {
+  font-weight: 300;
+  margin-top: 1px;
+}
+.head-p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: #4d4f62;
+  width: 33ch;
+  text-align: center;
+  margin-top: 13px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 76px;
+}
+.box {
+  width: 311px;
+  min-height: 222px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.div-1::after {
+  background-color: #44d3d2;
+}
+.middle-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.div-2::after {
+  background-color: #ea5454;
+}
+.div-3::after {
+  background-color: #fcae4a;
+}
+.div-4::after {
+  background-color: #549ef2;
+}
+.div-heads {
+  margin: 27px 0 1px 28px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4f62;
+}
+.div-p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  color: #4d4f62;
+  margin-left: 29px;
+  width: 31ch;
+  margin-bottom: 33px;
+}
+img {
+  margin-left: 226px;
+}
+.box::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 311px;
+  height: 3.55px;
+}
+@media only screen and (min-width: 1440px) {
+  main {
+    flex-direction: row;
+  }
+}
